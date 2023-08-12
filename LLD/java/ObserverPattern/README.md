@@ -23,13 +23,15 @@
   <li>Run the following command to compile the Java files:</li>
 </ol>
 
-<!-- <pre> -->
+<pre>
 <code>javac -d out *.java ./*/*.java</code>
-<!-- </pre> -->
+</pre>
 
-<p>This will create an <code>out</code> folder in the current directory.</p>
-
-<h2>Run Instructions</h2>
+<p>
+This will create an <code>out</code> folder in the current directory.
+In which all the compiled file will store as package
+</p>
+<h2>So Now If You Want To Run The Program Then Follow Given Instructions</h2>
 
 <ol>
   <li>Move to the <code>out</code> folder using the command:</li>
@@ -43,7 +45,7 @@
 
 <pre><code>java ObserverPattern.Store</code></pre>
 
-<p>For more coding challenges, you can visit <a href="https://leetcode.com" target="_blank">LeetCode</a>.</p>
+<p>Congrats! 💕 OutPuts On Terminal</p>
 
 </body>
 
