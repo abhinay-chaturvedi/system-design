@@ -16,8 +16,11 @@ int main() {
     iphoneStockObservable->add(observer1);
     iphoneStockObservable->add(observer2);
     iphoneStockObservable->add(observer3);
+    iphoneStockObservable->remove(observer2);
 
     iphoneStockObservable->setStockCount(10);
+    iphoneStockObservable->setStockCount(-10);
+    iphoneStockObservable->setStockCount(20);
 
     // Clean up memory
     delete observer1;

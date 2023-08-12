@@ -20,30 +20,25 @@
 
 <ol>
   <li>Navigate to the folder using the <code>cd</code> command.</li>
-  <li>Run the following command to compile the Java files:</li>
+  <li>Run the following command to compile the TypeScript files:</li>
 </ol>
-
 <pre>
-<code>javac -d out *.java ./*/*.java</code>
+<code>npm install -g tsc</code>
 </pre>
-<p>Make sure javac compiler installed on your computer! 😉</p>
+<pre>
+<code>tsc Store.ts</code>
+</pre>
 <p>
-This will create an <code>out</code> folder in the current directory.
-In which all the compiled file will store as package
+This will create Corresonding js files
 </p>
 <h2>So Now If You Want To Run The Program Then Follow Given Instructions</h2>
 
 <ol>
-  <li>Move to the <code>out</code> folder using the command:</li>
+  <li>Make sure you are in correct directory and Node installed in your computer.</li>
+   <li>Execute the program by running:</li>
 </ol>
 
-<pre><code>cd out</code></pre>
-
-<ol start="2">
-  <li>Execute the program by running:</li>
-</ol>
-
-<pre><code>java ObserverPattern.Store</code></pre>
+<pre><code>node Store.js</code></pre>
 
 <p>Congrats! 💕 OutPuts On Terminal</p>
 
