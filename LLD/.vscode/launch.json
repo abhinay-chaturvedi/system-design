@@ -2,6 +2,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "MainClass",
+      "request": "launch",
+      "mainClass": "AbstractFactory.MainClass",
+      "projectName": "LLD_c5cc5a2a"
+    },
+    {
+      "type": "java",
+      "name": "MainClass",
+      "request": "launch",
+      "mainClass": "FactoryMethod.MainClass",
+      "projectName": "LLD_c5cc5a2a"
+    },
+    {
+      "type": "java",
+      "name": "MainClass",
+      "request": "launch",
+      "mainClass": "FactoryPattern.MainClass",
+      "projectName": "LLD_c5cc5a2a"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
