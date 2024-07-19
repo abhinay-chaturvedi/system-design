@@ -5,6 +5,13 @@
       "type": "java",
       "name": "MainClass",
       "request": "launch",
+      "mainClass": "Adapter.MainClass",
+      "projectName": "LLD_c5cc5a2a"
+    },
+    {
+      "type": "java",
+      "name": "MainClass",
+      "request": "launch",
       "mainClass": "Builder.MainClass",
       "projectName": "LLD_c5cc5a2a"
     },
